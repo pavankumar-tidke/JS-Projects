@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(12, 11, 11);
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    margin-bottom: 10px;
+    color: rgb(0, 195, 255);
+}
+h1 span {
+    color: rgb(251, 255, 0);
+}
+#form {
+    position: relative;
+    height: auto;
+    width: 400PX;
+    padding: 20px 30px 20px 30px;
+    border: 1px solid rgb(0, 183, 255);
+}
+#form .inputBox {
+    margin: 0px 0PX 20px 0px; 
+    
+}
+#form .label {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+#form .input {
+    width: 350px;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    margin: 0px 0PX 3px 0px;
+    font-size: 1.01rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgb(44, 44, 44);
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+.valid {
+    color: rgb(0, 255, 0);
+    font-style: italic;
+    font-weight: 300;
+}
+.invalid {
+    color: rgb(255, 38, 38);
+    font-style: italic;
+    font-weight: 300;
+}
+.blank {
+    color: rgb(255, 217, 0);
+    font-style: italic;
+    font-weight: 300;
+}

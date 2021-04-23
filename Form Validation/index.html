@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Email Validation</title>
+</head>
+<body>
+    
+    <div id="form">
+        <center><h1>Form Validation <span>J S</span></h1></center>   
+        <div class="inputBox">
+            <h3 id="nameLabel" class="label">Full name</h3>
+            <input type="text" name="name" id="nameInput" class="input" onkeyup="nameValidation()" placeholder="Name            Middle_name              Surname">
+            <span id="nameText" class="text"></span>
+        </div>
+        <div class="inputBox">
+            <h3 id="emailLabel" class="label">Email Validation</h3>
+            <input type="email" name="email" id="email" class="input" onkeyup="validation()" placeholder="Email Address">
+            <span id="emailText" class="text"></span>
+        </div>
+        <div class="inputBox">
+            <h3 id="userLabel" class="label">Enter Username</h3>
+            <input type="text" name="Username" id="userInput" class="input" onkeyup="userValidation()" placeholder="Username">
+            <span id="userText" class="text"></span>
+        </div>
+        <div class="inputBox">
+            <h3 id="emailLabel" class="label">Password</h3>
+            <input type="password" name="password" id="passInput" class="input" onkeyup="passValidation()" placeholder="Password must 8 character">
+            <span id="passText" class="text"></span>
+        </div>
+        <div class="inputBox">
+            <h3 id="emailLabel" class="label">Confirm Password</h3>
+            <input type="password" name="confirmPassword" id="cnfInput" class="input" onkeyup="cnfValidation()" placeholder="Same as Password">
+            <span id="cnfText" class="text"></span>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
