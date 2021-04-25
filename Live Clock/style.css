@@ -17,6 +17,7 @@ body {
 #clock, #p1 {
     color: #02ffff;
 }
+
 #p1 {
     margin: 50px 0px 0px 120px;
     font-size: 5rem;
@@ -42,7 +43,6 @@ body {
     letter-spacing: 3px; 
     opacity: 1;
 }
-
 #clock::before {
     content: attr(data-text);
     position: absolute;
@@ -53,5 +53,4 @@ body {
     -webkit-background-clip: text;
     color: transparent;
     opacity: 0.5;
-
 }
