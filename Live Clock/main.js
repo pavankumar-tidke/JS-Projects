@@ -8,7 +8,6 @@ const options = {
     day: 'numeric'
 }
 
-
 setInterval( ()=>{
     let d = new Date();
     date = d.toLocaleTimeString(undefined, options)
