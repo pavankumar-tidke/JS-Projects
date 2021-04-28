@@ -1,3 +1,7 @@
+
+let pass
+let blnkPattern = /^([\s]+)?$/
+
 function nameValidation() {
     let name = document.getElementById('nameInput').value
     let text = document.getElementById('nameText')
@@ -131,6 +135,3 @@ function cnfValidation() {
     }
 }
 
-
-let pass
-let blnkPattern = /^([\s]+)?$/
